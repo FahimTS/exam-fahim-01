@@ -1,0 +1,79 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+}
+
+.about-head h1 {font-size: 30px;font-weight: 600;margin-bottom: 15px;}
+
+.about-head h1 span {
+    color: #20c997;
+}
+
+.about-head p {
+    width: 731px;
+    font-size: 16px;
+    color: hsla(0,0%,100%,.5)!important;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.about-head {
+    width: 71%;
+}
+.about-info {
+    color: #dee3e4!important;
+}
+
+.about-info ul li span {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.about-info ul li {
+    margin-bottom: 25px;
+    font-size: 16px;
+    position: relative;
+}
+.about-info ul li::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 41px;
+    border-bottom: 1px solid hsla(0,0%,98%,.12);
+}
+.about-info ul li:nth-child(2) a {
+    color: #1baa80;
+}
+
+.btn-cv {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn-cv button {
+    background: #1baa80;
+    color: #fff;
+    border: #1baa80;
+}
+.featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+.featured-box {    
+    width: 100%;
+    text-align: center;
+}
+
+.featured-title h3 {font-size: 50px;color: hsla(0,0%,100%,.5)!important;font-weight: 500;}
+
+.featured-title p {
+    color: #dee3e4;
+    font-size: 17px;
+    margin-top: -9px;
+}

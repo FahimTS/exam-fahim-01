@@ -1,0 +1,160 @@
+.skill-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+.skill-developer ul li span {
+    float: right;
+}
+.skill-developer {
+    width: 538px;
+    margin-right: 40px;
+}
+
+.skill-developer ul {
+    list-style: none;
+}
+
+.skill-developer ul li {
+    color: rgb(222, 227, 228);
+    margin-bottom: 52px;
+    position: relative;
+    font-size: 17px;
+    /* color: white; */
+    font-weight: 500;
+}
+
+.skill-developer ul li::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: #4e5b6c;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    border-radius: 20px;
+}
+.skill-developer ul li:after {
+    content: "";
+    width: 0;
+    height: 10px;
+    background: #20c997;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.skill-developer ul li.web-desing:after{
+    animation-name: web-desing;
+}
+@keyframes web-desing {
+    to{
+        width: 80%;
+    }
+}
+.skill-developer ul li.javascript:after{
+    animation-name: javascript;
+}
+@keyframes javascript {
+    to{
+        width: 40%;
+    }
+}
+.skill-developer ul li.angjs:after{
+    animation-name: angjs;
+}
+@keyframes angjs {
+    to{
+        width: 60%;
+    }
+}
+.skill-developer ul li.bts:after{
+    animation-name: bts;
+}
+@keyframes bts {
+    to{
+        width: 50%;
+    }
+}
+
+.skill-developer1 {
+    width: 510px;
+}
+
+.skill-developer1 ul {
+    list-style: none;
+}
+
+.skill-developer1 ul li {
+    color: rgb(222, 227, 228);
+    margin-bottom: 52px;
+    position: relative;
+    font-size: 17px;
+    /* color: white; */
+    font-weight: 500;
+}
+
+.skill-developer1 ul li::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: #4e5b6c;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    border-radius: 20px;
+}
+.skill-developer1 ul li:after {
+    content: "";
+    width: 0;
+    height: 10px;
+    background: #20c997;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.skill-developer1 ul li.html:after{
+    animation-name: html;
+}
+@keyframes html {
+    to{
+        width: 80%;
+    }
+}
+.skill-developer1 ul li.html:after{
+    animation-name: html;
+}
+@keyframes html {
+    to{
+        width: 88%;
+    }
+}
+.skill-developer1 ul li.rejs:after{
+    animation-name: rejs;
+}
+@keyframes rejs {
+    to{
+        width: 70%;
+    }
+}
+.skill-developer1 ul li.bts:after{
+    animation-name: bts;
+}
+@keyframes bts {
+    to{
+        width: 50%;
+    }
+}
+.skill-developer1 span {
+    float: right;
+}

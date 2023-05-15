@@ -1,0 +1,125 @@
+
+<!-- header section coding -->
+<header class="header" id="header">
+
+  <div class="container">
+  <div class="primary-content">
+    <div class="primary-title">
+      <h2>Welcome</h2>
+      <h1>I'm a <span>Web Developer</span> </h1>
+      <p>I live in Keshabpur, Jessore</p>
+    </div>
+    <div class="btn">
+      <button type="submit">Hire Me</button>
+    </div>
+  </div>
+  </div>
+  </header>
+  <!-- about section coding -->
+  <section class="about" id="about">
+  <div class="container">
+  <div class="about-wrap">
+  <div class="sec-title">
+    <h1>About Me</h1>
+    <p>Know Me More</p>
+  </div>
+  <app-about-me></app-about-me>
+  </div>
+  </div>
+  </section>
+  <!-- services section coding -->
+  <section class="services" id="services">
+  <div class="container">
+  <div class="sec-title">
+    <h1>Services</h1>
+    <p>What I Do?</p>
+  </div>
+  <div class="services-grid">
+    <app-services-card *ngFor="let data of services" [serviceCard]="data"></app-services-card>
+  </div>
+  
+  </div>
+  </section>
+  <!-- summary section coding -->
+  <section class="summary" id="summary">
+  <div class="container">
+  <div class="sec-title">
+  <h1>Summary</h1>
+  <p>Resume</p>
+  </div>
+  <div class="education">
+  
+  <div class="education-left">
+      <div class="education-title">
+        <h2>My Education</h2>
+      </div>
+      <div class="education-box">
+        <app-summary *ngFor="let summary of summaryFirst" [summaryCardFirst]="summary"></app-summary>
+      </div>
+    </div>
+  
+    <div class="experience-right">
+      <div class="experience-title">
+        <h2>My Experience</h2>
+      </div>
+      <div class="education-box">
+        <app-summary *ngFor="let summary of summarySecond" [summaryCardFirst]="summary"></app-summary>
+      </div>
+    </div>
+          
+  </div>
+  </div>
+  </section>
+  <!-- skill section coding -->
+  
+  <section class="skill" id="skill">
+  <div class="container">
+  <div class="sec-title">
+  <h1>Skill</h1>
+  <p>My Skill</p>
+  </div>
+  <app-my-skill></app-my-skill>
+  </div>
+  </section>
+
+  <!-- our jeshore town section coding -->
+  <section class="town">
+  <div class="sec-title">
+  <h1>Town</h1>
+  <p>Our Jeshore Town</p>
+  </div>
+  <div class="container">
+  <div class="town-wrap">
+  <app-town-card *ngFor="let townCard of townBox" [townCard]="townCard"></app-town-card>
+  </div> 
+  </div>
+  
+  </section>
+  <!-- contact section coding -->
+  <section class="contact" id="contact">
+  <div class="sec-title">
+  <h1>Contact</h1>
+  <p>Get in Touch</p>
+  </div>
+  <div class="container">
+  <div class="contact-wrap">
+  <app-contact-me></app-contact-me>
+  </div>
+  </div>
+  </section>
+  
+  <!-- footer coding- -->
+  <footer class="footer">
+  <div class="container">
+  <div class="footer-copyright">
+  <div class="footer-title">
+    <p>Copyright &copy; 2023 <a href="#">Fahim</a>. All Rights Reserved.</p>
+  </div>
+  
+  <div class="footer-btn">
+    <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+  </div>
+  </div>
+  </div>
+  </footer>
+  
